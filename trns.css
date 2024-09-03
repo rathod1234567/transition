@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color:#FFF5E4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.container {
+    background-color:#FDFFAB;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+}
+
+.div1 {
+    background-color:pink;
+    border: 2px solid black;
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    transition: all 4s ease 2s;
+    border: none;
+
+}
+
+.div1:hover {
+    background-color: lightgreen;
+    transform: rotate(45deg);
+    box-shadow: 2px 3px 8px red;
+}
+
+.div1 img {
+    width: 100px;
+    height: 100px;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    
+}
+
+.div1:hover img {
+    translate: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px yellow;
+
+}
+
+.div2 {
+    background-color: pink;
+    border: 2px solid black;
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    transition: all 4s ease 2s;
+    border: none;
+
+}
+ .img1 {
+    width: 100px;
+    height: 100px;
+
+}
+
+.div2:hover {
+    background-color: lightgreen;
+    transform: scale(1.2);
+    /* position: absolute; */
+    top: 5rem;
+    right: 8rem;
+    box-shadow: 3px 4px 8px coral;
+
+}
+
+.div3 {
+    background-color: pink;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25rem;
+    left: 2rem;
+    transition: all 4s ease 2s;
+    border: none;
+
+}
+
+.div3:hover {
+    background-color: lightgreen;
+    transform: skewY(30deg);
+    box-shadow: 3px 4px 8px coral;
+    /* z-index: -1; */
+
+}
+
+.div4 {
+    background-color: pink;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25rem;
+    right: 2rem;
+    transition: all 5s ease 2s;
+    border: none;
+
+}
+
+.div4:hover {
+    background-color: lightgreen;
+    /* border: 2px solid blue; */
+    transform: translate(20px);
+    color: red;
+    box-shadow: 3px 4px 8px coral;
+
+
+}
+
+footer {
+    background-color: black;
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+
